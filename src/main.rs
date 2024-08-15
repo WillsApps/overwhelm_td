@@ -3,7 +3,7 @@ mod sprite_movement_2d;
 mod rendering_shapes;
 use bevy::{
     core_pipeline::{
-        bloom::{BloomCompositeMode, BloomSettings},
+        bloom::{BloomSettings},
         tonemapping::Tonemapping,
     },
     prelude::*,
